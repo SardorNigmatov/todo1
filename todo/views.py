@@ -14,9 +14,9 @@ class AllTask(ListAPIView):
     queryset = ToDoModel.objects.all()
     serializer_class = ToDoModelSerializers
     permission_classes = (ReadOnlyPermission,)
-    def get_queryset(self):
-        user = self.request.user
-        return ToDoModel.objects.filter(user=user)
+        # def get_queryset(self):
+        #     user = self.request.user
+        #     return ToDoModel.objects.filter(user=user)
 
 class DetailTask(RetrieveAPIView):
     queryset = ToDoModel.objects.all()
