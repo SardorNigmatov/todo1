@@ -132,7 +132,7 @@ LANGUAGES = (
 
 
 MODELTRANSLATION_DEFAULT_LANGUAGE = 'uz'
-MODELTRANSLATION_TRANSLATION_REGISTRY = 'config.translation'
+MODELTRANSLATION_TRANSLATION_REGISTRY = 'todo.translation'
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/4.2/howto/static-files/
